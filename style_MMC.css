@@ -1,6 +1,7 @@
 body {
 	background: white;
 	font-family: 'Nunito', sans-serif;
+	
 }
 
 #brandName {
@@ -65,9 +66,9 @@ body {
 }
 
 #contactJumbo {
-	background:url("") no-repeat center center ;
+	background:url("contact.jpg") no-repeat center center ;
 	background-size: cover;
-	background-position: 100% 25%;
+	background-position: ;
 	width: 100%;
 	height: 600px;
 }
@@ -80,6 +81,7 @@ body {
 	background: black;
 	color: white;
 	height: 50px;
+
 }
 
 .jumbotron {
@@ -108,6 +110,8 @@ body {
 }
 
 
+
+
 @media (max-width: 1000px) {
 	#homeJumbo {
 	background:url("mountain.jpg") no-repeat center center ;
@@ -130,6 +134,25 @@ body {
 		width: 100%;
 	 	height: 400px;
 	 }
+	  #contactJumbo {
+	 	background-size: cover;
+		background-position: 40% 25%;
+		width: 100%;
+	 	height: 400px;
+	 }
+
+	 #forms h2 {
+	 	font-size: 1.25rem;
+	 }
+	 #forms h3 {
+	 	font-size: 1.15rem;
+	 }
+	 #forms p {
+	 	font-size: 1rem;
+	 }
+	 #homeFooter h6 {
+	 	font-size: 1rem;
+	 }
 
 	 #mainNavbar .nav-link {
 	color:white;
@@ -143,6 +166,11 @@ body {
 	.jumbotron p {
 	font-size: 2rem;
 	}
+
+	.footer {
+	position: absolute;
+  bottom: 0%;     
+}
 
 @media (max-width: 625px) {
 	#brandName {
@@ -167,17 +195,43 @@ body {
 		width: 100%;
 	 	height: 250px;
 	 }
+	 #contactJumbo {
+	 	background-size: cover;
+		background-position: 40% 25%;
+		width: 100%;
+	 	height: 250px;
+	 }
 
 	 #mainNavbar .nav-link {
 	color:white;
 	}
+
+	#forms h2 {
+	 	font-size: 1.1rem;
+	 }
+	 #forms h3 {
+	 	font-size: 1rem;
+	 }
+	 #forms p {
+	 	font-size: 1rem;
+	 }
+
+	 #homeFooter h6 {
+	 	font-size: .67rem;
+	 }
 
 	.jumbotron h1 {
 	font-size: 1.5rem;
 	height: 100%;
 	
 	}
+
 	.jumbotron p {
 	font-size: 1rem;	
+	}
+
+	.footer {
+	position: absolute;
+  bottom: 0%;     
 }
 }
