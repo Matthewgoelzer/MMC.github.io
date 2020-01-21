@@ -39,11 +39,11 @@ body {
     font-size: .8rem;
 }
 
-.frontPicturesLandscape img{
+.frontPicturesLandscape{
     max-width:100%;
 }
 
-.frontPicturesPortrait img{
+.frontPicturesPortrait{
     max-width: 100%;
     max-height:97%;
 }
